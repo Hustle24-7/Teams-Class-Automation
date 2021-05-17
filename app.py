@@ -68,7 +68,8 @@ def start():
     microsoft_login = 'https://login.microsoftonline.com/'
     username = os.environ.get("USERNAME")
     password = os.environ.get("PASSWORD")
-    class_time = 3800
+    # 3700
+    class_time = 40
 
     try:
         sheet.update_cell(x, 5, "Login In Process")
